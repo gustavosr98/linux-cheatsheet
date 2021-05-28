@@ -1,3 +1,6 @@
+# 👁 Monitoring
+
+```bash
 # Display and manage the top processes
 top
 
@@ -40,3 +43,4 @@ watch <cmd>
 # Show 5 most memory consuming processes 
 # Use '' when using pipes
 watch 'ps -ao %mem,comm | sort | tail -n 6'
+```

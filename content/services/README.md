@@ -1,3 +1,6 @@
+# 👹 Deamons / Services / Processes
+
+```bash
 # SERVICES / DAEMONS ----------------------------------------------
 # List all
 systemctl status
@@ -71,3 +74,4 @@ cd /var/spool/cron/crontabs
 
 # See logs
 less /var/spool/mail/<user>
+```

@@ -1,3 +1,6 @@
+# 🛰 Remote
+
+```bash
 # SSH ----------------------------------------------
 # -i identity_file
 # -p port
@@ -21,3 +24,4 @@ scp server:/var/www/*.html /tmp
 
 # Copy all files and directories recursively from server to the current system's /tmp folder.
 scp -r server:/var/www /tmp
+```

@@ -1,3 +1,6 @@
+# 📦 Dependencies (APT)
+
+```bash
 # APT PACKAGE MANAGER
 # main, restrictred (propietary), universe (community), multiverse (copyrights)
 # /etc/sources.list
@@ -22,8 +25,7 @@ apt autoremove
 
 # Install package
 apt install <package>[=version]
-apt install vscode
-apt install ~/Downloads/code_1.44.2-1587059832_amd64.deb 
+apt install <file>.deb 
 
 # Remove package
 apt remove <package>
@@ -48,3 +50,4 @@ apt clean
 apt-add-repository [--remove] <repo>
 apt-add-repository ppa:audio-recorder/ppa
 apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+```

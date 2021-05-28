@@ -1,3 +1,6 @@
+# 🌐 Networking
+
+```bash
 # IP / INTERFACES ----------------------------------------------
 # Display all network interfaces and IP address
 ip a
@@ -64,3 +67,4 @@ ufw app info Apache
 # HTTP ----------------------------------------------
 # Download http://domain.com/file
 wget http://domain.com/file
+```
