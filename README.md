@@ -11,17 +11,29 @@
 - [📦 Dependencies (APT)](content/deps/README.md)
 - [📟 Shell & Scripting](content/shell/README.md)
 
-# Other tools 🧰
+## Tools 🧰
 - byobu: Shared terminal
 
-# I'd like to add later ⌛
+## Other resources
+Cheatsheets
+- [dformoso/linux-admin](https://github.com/dformoso/linux-admin) 
 
-Networking
+Rersources lists
+- [itech001 / awesome-linux-resources](https://github.com/itech001/awesome-linux-resources)
+
+Presentations
+- [knezicm / advanced-linux](https://github.com/knezicm/advanced-linux)
+
+Entertainment
+- [Apple Emoji on Linux](https://github.com/samuelngs/apple-emoji-linux)
+
+
+## I'd like to add later ⌛
+
+- Improve scripting cheatsheet
 - How to use `nc` as proxy
-
-Remote
 - `rsync` for backups
-
-Security
 - How to hide files inside images
-system hardware monitoring users files services networking remote deps shell
+- Improve Vim cheatsheet
+
+**Note**: Issues and PRs are always welcome
