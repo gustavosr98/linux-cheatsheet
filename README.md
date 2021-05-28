@@ -1,7 +1,7 @@
 # Linux Cheatsheet 🐧
 
 - [📁 Important Files & Folders](content/important/README.md)
-- [ℹ System & Hardware Information](content/README.md/system)
+- [ℹ System & Hardware Information](content/system/README.md)
 - [👁 Monitoring](content/monitoring/README.md)
 - [👥 Users & Permissions](content/users/README.md)
 - [🗃 Files, Search & Handling Text](content/files/README.md)
