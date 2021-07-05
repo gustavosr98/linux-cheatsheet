@@ -1,8 +1,10 @@
 # 🗃 Files, Search & Handling Text
 
-- [🗃 Files](#🗃-files)
-- [🔍 Search](#🔍-search)
-- [📝 Handling Text](#📝-handling-text)
+- [🗃 Files, Search & Handling Text](#-files-search--handling-text)
+  - [🗃 Files](#-files)
+  - [🔍 Search](#-search)
+  - [📝 Handling Text](#-handling-text)
+  - [💾 Backups](#-backups)
 
 ## 🗃 Files
 
@@ -24,7 +26,7 @@ pwd
 # -l, long listing
 # -R, --recursive
 # -h, --human-readable
-# -a, --all 
+# -a, --all
 # -A, all but . and ..
 
 # -r, sort in reverse
@@ -97,7 +99,7 @@ tar xjf archive.tar.bz2
 ```bash
 # GREP ------------------------------------------------
 # Search for pattern in file
-# -c, --count  
+# -c, --count
 # -i, --ignore-case
 # -s, Ignore dirs and not allowed
 # -r, Recursive
@@ -144,10 +146,10 @@ find path -type f|d|l|c|b
 cat fruits.txt | uniq
 ```
 
-
 ## 📝 Handling Text
 
 Text Editors
+
 - [nano (beginners)](./text-editors/README.md)
 - [vim (advanced)](./text-editors/README.md)
 
@@ -172,7 +174,7 @@ echo "B\nA\nC" | sort
 # TR ------------------------------------------------
 # Change characters
 tr this_chars that_chars
-echo "Hola vale" | tr ' ' '_' 
+echo "Hola vale" | tr ' ' '_'
 
 # Upper case
 tr [:lower:] [:upper:]
@@ -194,11 +196,20 @@ tr -s '\n' ' '
 # -E, extended regex
 
 # Replace N instance per line
-sed 's/regexp/replace/<N>' file 
+sed 's/regexp/replace/<N>' file
 
 # Replace global per line
 sed 's/regexp/replace/g' file
 
 # If regex contains /
-sed 's!regexp!replace!g' file 
+sed 's!regexp!replace!g' file
+```
+
+## 💾 Backups
+
+- GUI Tool: [Timeshift](https://github.com/teejee2008/timeshift)
+
+```bash
+# Only copies differences since last backup
+rsync -aAXv --delete --exclude={pathA, pathB} /source /target
 ```
