@@ -32,8 +32,11 @@ Entertainment
 
 - Improve scripting cheatsheet
 - How to use `nc` as proxy
-- `rsync` for backups
+- How to find duplicated files
+- How to recover files deleted from bin
+- How to use `rsync` for backups
 - How to hide files inside images
+- How to use `tar` to split in multiple files
 - Improve Vim cheatsheet
 
 **Note**: Issues and PRs are always welcome
