@@ -46,7 +46,8 @@ var/            # Variable data
     apt/archives/     # apt downloads cache
 # ------------------------------------------------------
 home/           # users working dir
-  <user>/             # $HOME ~        
+  <user>/             # $HOME ~
+    .local/share/Trash      # Trash bin        
 # ------------------------------------------------------
 media/          # removable media devices
   <user>/<usb>/       # mounted USB path 
