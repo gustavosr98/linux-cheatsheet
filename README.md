@@ -12,21 +12,26 @@
 - [📟 Shell & Scripting](content/shell/README.md)
 
 ## Tools 🧰
+
 - byobu: Shared terminal
 
 ## Other resources
+
 Cheatsheets
-- [dformoso/linux-admin](https://github.com/dformoso/linux-admin) 
+
+- [dformoso/linux-admin](https://github.com/dformoso/linux-admin)
 
 Rersources lists
+
 - [itech001 / awesome-linux-resources](https://github.com/itech001/awesome-linux-resources)
 
 Presentations
+
 - [knezicm / advanced-linux](https://github.com/knezicm/advanced-linux)
 
 Entertainment
-- [Apple Emoji on Linux](https://github.com/samuelngs/apple-emoji-linux)
 
+- [Apple Emoji on Linux](https://github.com/samuelngs/apple-emoji-linux)
 
 ## I'd like to add later ⌛
 

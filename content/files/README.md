@@ -105,6 +105,10 @@ tar xjf archive.tar.bz2
 # -r, Recursive
 # -R, Recursive with links
 
+# -A NUM, --after-context
+# -B NUM, --before-context
+# -C NUM, --context
+
 # -l, --files-with-matches
 # -L, --files-without-matches
 
@@ -112,6 +116,7 @@ grep pattern file
 grep pattern *
 
 grep -c error /var/log/*.log
+grep -ri -A 5 method code-folder/
 
 # SORT ----------------------------------------------
 # -r, --reverse
@@ -144,6 +149,10 @@ find path -type f|d|l|c|b
 # -c count
 # -d dupliclates
 cat fruits.txt | uniq
+
+# TREE ----------------------------------------------
+# -L levels
+tree folder/
 ```
 
 ## 📝 Handling Text
