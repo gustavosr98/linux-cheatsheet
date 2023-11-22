@@ -50,6 +50,9 @@ usermod -aG sales john
 
 ```bash
 # PERMISSIONS ----------------------------------------------
+
+chattr +i <file> # Read only / Inmutable
+
 # Show file permissions
   # 0UGO normal
   # 4UGO runs as root user
